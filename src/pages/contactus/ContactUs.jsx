@@ -5,7 +5,9 @@ function ContactUs() {
   return (
     <>
       <Layout>
-        <div className="container mx-auto">ContactUs</div>
+        <div className="container mx-auto">
+         Contact Us
+        </div>
       </Layout>
     </>
   );
