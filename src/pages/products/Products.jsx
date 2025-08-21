@@ -4,7 +4,7 @@ import Cards from '../../components/cards/Cards';
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-function Products() {
+function Products() { 
 
   const [product, setProduct] = useState([]);
   useEffect(() => {

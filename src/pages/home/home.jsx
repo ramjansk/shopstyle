@@ -5,8 +5,9 @@ import Banner from "../../components/banner/Banner";
 function home() {
   return (
     <Layout>
+      <Banner />
       <div className="container mx-auto">
-        <Banner />
+        
 
         <section className="text-gray-700 body-font">
           <div className=" flex px-5 py-24 md:flex-row flex-col items-center">
