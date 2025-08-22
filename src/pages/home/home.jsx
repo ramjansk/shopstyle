@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import Banner from "../../components/banner/Banner";
+import homepik1 from "../../assets/pagespik/cyber-monday-shopping-sales.jpg";
 
 function home() {
   return (
@@ -36,7 +37,7 @@ function home() {
               <img
                 className="object-cover object-center rounded"
                 alt="hero"
-                src="https://dummyimage.com/720x600/edf2f7/a5afbd"
+                src={homepik1}
               />
             </div>
           </div>
